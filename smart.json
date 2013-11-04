@@ -1,0 +1,8 @@
+{
+  "name": "copy-template",
+  "description": "Allows you to copy template",
+  "homepage": "https://github.com/apendua/meteor-copy-template",
+  "author": "Tomasz Lenarcik",
+  "version": "0.0.1",
+  "git": "https://github.com/apendua/meteor-copy-template.git"
+}
