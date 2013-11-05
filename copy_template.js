@@ -7,6 +7,6 @@ Template.__define__ = function (name, raw_func) {
   return __define__(name, raw_func);
 }
 
-Template.copy = function (name, copyOf) {
+Template.__copy__ = function (name, copyOf) {
   return __define__(name, __func__[copyOf]);
 }

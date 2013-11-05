@@ -2,20 +2,26 @@
 
 This package allows you to copy your templates.
 
+## Installation
+
+To use this package, run
+
+    mrt add copy-template
+
 ## Usage
 
 Supposing you've defined
 
 ```html
 <template name="myTemplate">
-   {{...}}
+   ...
 </template>
 ```
 
 you can copy it using:
 
 ```javascript
-Template.copy("copyOfMyTemplate", "myTemplate");
+Template.__copy__("copyOfMyTemplate", "myTemplate");
 ```
 
 This should be equivalent to defining template named `copyOfMyTemplate`
