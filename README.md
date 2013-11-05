@@ -14,7 +14,7 @@ Supposing you've defined
 
 ```html
 <template name="myTemplate">
-   {{...}}
+   ...
 </template>
 ```
 
