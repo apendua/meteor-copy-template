@@ -4,7 +4,7 @@ if (Meteor.isClient) {
     return "Welcome to test.";
   };
 
-  Template.copy("hello_copy", "hello");
+  Template.__copy__("hello_copy", "hello");
 
   Template.hello_copy.greeting = function () {
     return "I am just a copy.";
