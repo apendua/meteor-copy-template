@@ -6,7 +6,7 @@ This package allows you to copy your templates.
 
 To use this package, run
 
-    mrt add copy-template
+    meteor add mrt:copy-template
 
 ## Usage
 
